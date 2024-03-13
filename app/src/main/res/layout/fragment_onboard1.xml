@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Onboard1Fragment">
+
+    <ImageView
+        android:id="@+id/onboard_pic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="21dp"
+        android:src="@drawable/onboard1svg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ob_title_tv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        style="@style/OnboardText1"
+        android:layout_marginStart="51.5dp"
+        android:layout_marginEnd="51.5dp"
+        android:text="Quick Delivery At Your Doorstep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboard_pic1" />
+
+    <TextView
+        android:id="@+id/ob_desc_tv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="59.5dp"
+        android:layout_marginEnd="59.5dp"
+        style="@style/OnboardText2"
+        android:text="Enjoy quick pick-up and delivery to your destination"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ob_title_tv1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_skip1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="82dp"
+        android:stateListAnimator="@null"
+        style="@style/OnboardButtonText1"
+        android:text="Skip"
+        android:background="@drawable/btn_onboard1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ob_desc_tv1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_next1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="24dp"
+        style="@style/OnboardButtonText2"
+        android:text="Next"
+        android:onClick="next1"
+        android:paddingStart="35dp"
+        android:paddingEnd="35dp"
+        android:background="@drawable/btn_onboard2"
+        android:stateListAnimator="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ob_desc_tv1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

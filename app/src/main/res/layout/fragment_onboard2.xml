@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Onboard2Fragment">
+    <ImageView
+        android:id="@+id/onboard_pic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/onboardsvg2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ob_titile_tv2"
+        android:text="Flexible Payment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64.07dp"
+        style="@style/OnboardText1"
+        android:layout_marginStart="47.5dp"
+        android:layout_marginEnd="55.5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboard_pic2" />
+
+    <TextView
+        android:id="@+id/ob_desc_tv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="55.5dp"
+        android:layout_marginEnd="63.5dp"
+        style="@style/OnboardText2"
+        android:text="Different modes of payment either before and after delivery without stress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ob_titile_tv2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_skip2"
+        style="@style/OnboardButtonText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/btn_onboard1"
+        android:stateListAnimator="@null"
+        android:text="Skip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ob_desc_tv2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_next2"
+        style="@style/OnboardButtonText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/btn_onboard2"
+        android:paddingStart="35dp"
+        android:paddingEnd="35dp"
+        android:stateListAnimator="@null"
+        android:text="Next"
+        android:onClick="next2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ob_desc_tv2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
