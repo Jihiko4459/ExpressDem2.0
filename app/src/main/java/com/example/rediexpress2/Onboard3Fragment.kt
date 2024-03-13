@@ -22,7 +22,14 @@ class Onboard3Fragment : Fragment() {
         preff= activity?.getSharedPreferences(TABLE, Context.MODE_PRIVATE)
         preff?.edit()?.putInt(key2, 2)?.apply()
         var but_sign_up: AppCompatButton =q.findViewById(R.id.buttonsignup)
+        var but_sign_in:AppCompatButton=q.findViewById(R.id.textsignin)
         but_sign_up.setOnClickListener{
+            var intent= Intent(activity, HolderActivity::class.java)
+            preff?.edit()?.putBoolean(key1, true)?.apply()
+
+            startActivity(intent)
+        }
+        but_sign_in.setOnClickListener {
             var intent= Intent(activity, HolderActivity::class.java)
             preff?.edit()?.putBoolean(key1, true)?.apply()
 

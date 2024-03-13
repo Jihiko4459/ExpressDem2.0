@@ -86,7 +86,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="1dp"
             android:text="Sign in"
-
             android:textAllCaps="false"
             android:outlineProvider="none"
             />
