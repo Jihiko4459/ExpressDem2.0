@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
     var preff: SharedPreferences?=null
+    var user_preff:SharedPreferences?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -21,8 +22,10 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        user_preff=getSharedPreferences(Table_user, MODE_PRIVATE)
         preff= getSharedPreferences(TABLE,MODE_PRIVATE)
         var skip=preff?.getBoolean(key1, false)
+        var rem=user_preff?.getBoolean(key_rem, false)
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         val timer=object :CountDownTimer(5000,1000){
             override fun onTick(p0: Long) {
@@ -31,8 +34,15 @@ class MainActivity : AppCompatActivity() {
 
             override fun onFinish() {
                 if (skip==true){
-                    var intent= Intent(this@MainActivity, HolderActivity::class.java)
-                    startActivity(intent)
+                    if (rem==true){
+                        var intent= Intent(this@MainActivity, HomeActivity::class.java)
+                        startActivity(intent)
+                    }
+                    else{
+                        var intent= Intent(this@MainActivity, SignUpActivity::class.java)
+                        startActivity(intent)
+                    }
+
                 }else{
                     var intent= Intent(this@MainActivity, OnboardActivity::class.java)
                     startActivity(intent)
