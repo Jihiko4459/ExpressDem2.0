@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Notification"
-            style="@style/TextToolBar"
+            style="@style/TextToolBar2"
             android:layout_gravity="center"
             android:id="@+id/toolbar_title_notific" />
     </androidx.appcompat.widget.Toolbar>

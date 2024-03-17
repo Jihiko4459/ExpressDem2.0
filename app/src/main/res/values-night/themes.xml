@@ -2,6 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.RediExpress2" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/primaryshade7</item>
+        <item name="android:background">@color/primaryshade8</item>
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 </resources>

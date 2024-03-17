@@ -66,6 +66,8 @@ class ProfileFragment : Fragment() {
         }
         logout.setOnClickListener {
             val intent= Intent(activity, LogInActivity::class.java)
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            preff_dark?.edit()?.putBoolean(key_is_dark, false)?.apply()
             preff?.edit()?.putBoolean(key_rem, false)?.apply()
             preff?.edit()?.putString(key_email, "")?.apply()
             preff?.edit()?.putString(key_pass, "")?.apply()

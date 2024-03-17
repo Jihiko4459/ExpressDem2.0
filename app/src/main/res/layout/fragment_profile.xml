@@ -11,16 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
+        android:background="@color/background_card"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleTextAppearance="@style/TextToolBar" >
+        app:titleTextAppearance="@style/TextToolBar1" >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Profile"
-            style="@style/TextToolBar"
+            android:background="@color/background_card"
+            style="@style/TextToolBar1"
             android:layout_gravity="center"
             android:id="@+id/toolbar_title_profile" />
     </androidx.appcompat.widget.Toolbar>
@@ -167,7 +169,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="19dp"
                 android:layout_marginEnd="23dp"
-                android:background="@color/white"
+                android:background="@color/background_card"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
@@ -175,6 +177,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/background_card"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -184,6 +187,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:layout_marginTop="18dp"
+                        android:background="@color/background_card"
                         android:layout_marginBottom="25dp"
                         android:src="@drawable/iconoir_profile_circled"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -193,6 +197,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:background="@color/background_card"
                         android:layout_marginStart="9dp"
                         android:gravity="center_vertical"
                         android:orientation="vertical"
@@ -205,6 +210,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
+                            android:background="@color/background_card"
                             android:text="Edit Profile"
                             android:textColor="@color/text1"
                             android:textSize="16sp" />
@@ -214,6 +220,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
+                            android:background="@color/background_card"
                             android:text="Name, phone no, address, email ..."
                             android:textColor="@color/gray2"
                             android:textSize="12dp" />
@@ -224,6 +231,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="12dp"
+                        android:background="@color/background_card"
                         android:src="@drawable/frame12"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -240,7 +248,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="23dp"
-                android:background="@color/white"
+                android:background="@color/background_card"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/item1">
@@ -248,6 +256,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/background_card"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -256,6 +265,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
+                        android:background="@color/background_card"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/healthicons_i_certificate_paper_outline"
@@ -267,6 +277,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="9dp"
+                        android:background="@color/background_card"
                         android:gravity="center_vertical"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -276,6 +287,7 @@
                         <TextView
                             android:id="@+id/title_profile2"
                             android:layout_width="match_parent"
+                            android:background="@color/background_card"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
                             android:text="Statements &amp; Reports"
@@ -284,6 +296,7 @@
 
                         <TextView
                             android:id="@+id/item_desc2"
+                            android:background="@color/background_card"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
@@ -296,6 +309,7 @@
                         android:id="@+id/imageView92"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:background="@color/background_card"
                         android:layout_marginEnd="12dp"
                         android:src="@drawable/frame12"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -311,9 +325,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
+                android:background="@color/background_card"
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="23dp"
-                android:background="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/item2">
@@ -321,6 +335,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/background_card"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -330,6 +345,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
                         android:layout_marginTop="21dp"
+                        android:background="@color/background_card"
                         android:layout_marginBottom="21dp"
                         android:src="@drawable/notification_icon"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -341,6 +357,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginStart="9dp"
                         android:gravity="center_vertical"
+                        android:background="@color/background_card"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/icon_profile3"
@@ -350,6 +367,7 @@
                             android:id="@+id/title_profile3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:background="@color/background_card"
                             android:fontFamily="@font/roboto_medium"
                             android:text="Notification Settings"
                             android:textColor="@color/text1"
@@ -358,6 +376,7 @@
                         <TextView
                             android:id="@+id/item_desc3"
                             android:layout_width="match_parent"
+                            android:background="@color/background_card"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
                             android:text="mute, unmute, set location &amp; tracking setting"
@@ -370,6 +389,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="12dp"
+                        android:background="@color/background_card"
                         android:src="@drawable/frame12"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -393,6 +413,7 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
+                    android:background="@color/background_card"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
@@ -402,6 +423,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
+                        android:background="@color/background_card"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
                         android:src="@drawable/wallet2"
@@ -413,6 +435,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="9dp"
+                        android:background="@color/background_card"
                         android:gravity="center_vertical"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -422,6 +445,7 @@
                         <TextView
                             android:id="@+id/title_profile4"
                             android:layout_width="match_parent"
+                            android:background="@color/background_card"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
                             android:text="Card &amp; Bank account settings"
@@ -431,6 +455,7 @@
                         <TextView
                             android:id="@+id/item_desc4"
                             android:layout_width="match_parent"
+                            android:background="@color/background_card"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
                             android:text="change cards, delete card details"
@@ -443,6 +468,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="12dp"
+                        android:background="@color/background_card"
                         android:src="@drawable/frame12"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -466,6 +492,7 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
+                    android:background="@color/background_card"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
@@ -475,6 +502,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
+                        android:background="@color/background_card"
                         android:layout_marginTop="18dp"
                         android:layout_marginBottom="18dp"
                         android:src="@drawable/carbon_two_person_lift"
@@ -487,6 +515,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginStart="9dp"
                         android:gravity="center_vertical"
+                        android:background="@color/background_card"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/icon_profile5"
@@ -497,6 +526,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
+                            android:background="@color/background_card"
                             android:text="Referrals"
                             android:textColor="@color/text1"
                             android:textSize="16sp" />
@@ -504,6 +534,7 @@
                         <TextView
                             android:id="@+id/item_desc5"
                             android:layout_width="match_parent"
+                            android:background="@color/background_card"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
                             android:text="check no of friends and earn"
@@ -515,6 +546,7 @@
                         android:id="@+id/imageView95"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:background="@color/background_card"
                         android:layout_marginEnd="12dp"
                         android:src="@drawable/frame12"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -539,6 +571,7 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
+                    android:background="@color/background_card"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
@@ -547,6 +580,7 @@
                         android:id="@+id/icon_profile6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:background="@color/background_card"
                         android:layout_marginStart="12dp"
                         android:layout_marginTop="18dp"
                         android:layout_marginBottom="19dp"
@@ -557,6 +591,7 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
+                        android:background="@color/background_card"
                         android:layout_height="match_parent"
                         android:layout_marginStart="9dp"
                         android:gravity="center_vertical"
@@ -567,6 +602,7 @@
 
                         <TextView
                             android:id="@+id/title_profile6"
+                            android:background="@color/background_card"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
@@ -577,6 +613,7 @@
                         <TextView
                             android:id="@+id/item_desc6"
                             android:layout_width="match_parent"
+                            android:background="@color/background_card"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_regular"
                             android:text="know more about us, terms and conditions"
@@ -588,6 +625,7 @@
                         android:id="@+id/imageView96"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:background="@color/background_card"
                         android:layout_marginEnd="12dp"
                         android:src="@drawable/frame12"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -614,6 +652,7 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
+                    android:background="@color/background_card"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
@@ -623,6 +662,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="12dp"
+                        android:background="@color/background_card"
                         android:layout_marginTop="13dp"
                         android:layout_marginBottom="13dp"
                         android:src="@drawable/ic_round_log_out"
@@ -633,6 +673,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:background="@color/background_card"
                         android:layout_marginStart="9dp"
                         android:gravity="center_vertical|center_horizontal"
                         android:orientation="vertical"
@@ -645,6 +686,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto_medium"
+                            android:background="@color/background_card"
                             android:text="Log Out"
                             android:textColor="@color/text1"
                             android:textSize="16sp" />
@@ -655,6 +697,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="12dp"
+                        android:background="@color/background_card"
                         android:src="@drawable/frame12"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"

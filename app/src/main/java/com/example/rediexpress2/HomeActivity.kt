@@ -8,7 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class HomeActivity : AppCompatActivity() {
-    var fraglist= listOf(HomeFragment(), TrackFragment(), ProfileFragment() )
+    var fraglist= listOf(HomeFragment(),WalletFragment(), TrackFragment(), ProfileFragment() )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -23,8 +23,9 @@ class HomeActivity : AppCompatActivity() {
         bnv.setOnItemSelectedListener {
             when(it.itemId){
                 R.id.home->supportFragmentManager.beginTransaction().replace(R.id.holder, fraglist[0]).commit()
-                R.id.track->supportFragmentManager.beginTransaction().replace(R.id.holder, fraglist[1]).commit()
-                R.id.profile->supportFragmentManager.beginTransaction().replace(R.id.holder, fraglist[2]).commit()
+                R.id.wallet->supportFragmentManager.beginTransaction().replace(R.id.holder, fraglist[1]).commit()
+                R.id.track->supportFragmentManager.beginTransaction().replace(R.id.holder, fraglist[2]).commit()
+                R.id.profile->supportFragmentManager.beginTransaction().replace(R.id.holder, fraglist[3]).commit()
             }
             true
         }
