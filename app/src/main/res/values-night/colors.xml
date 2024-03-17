@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--Brand color primary-->
+    <color name="primarycolor">#0560fa</color>
+    <color name="primaryshadeandtint1">#006CEC</color>
+    <color name="primaryshade2">#005ECE</color>
+    <color name="primaryshade3">#0051B1</color>
+    <color name="primaryshade4">#004393</color>
+    <color name="primaryshade5">#003676</color>
+    <color name="primaryshade6">#002858</color>
+    <color name="primaryshade7">#001B3B</color>
+    <color name="primaryshade8">#000D1D</color>
+    <color name="primarytint2">#0F7DFF</color>
+    <color name="primarytint3">#318FFF</color>
+    <color name="primarytint4">#54A2FF</color>
+    <color name="primarytint5">#76B5FF</color>
+    <color name="primarytint6">#98C7FF</color>
+    <color name="primarytint7">#BADAFF</color>
+    <color name="primarytint8">#DDECFF</color>
+    <!--Brand color secondary-->
+    <color name="secondarycolorshadeandtint1">#EC8000</color>
+    <color name="secondaryshade2">#CF7000</color>
+    <color name="secondaryshade3">#B16000</color>
+    <color name="secondaryshade4">#945000</color>
+    <color name="secondaryshade5">#764000</color>
+    <color name="secondaryshade6">#593000</color>
+    <color name="secondaryhade7">#3B2000</color>
+    <color name="secondaryshade8">#1E1000</color>
+    <color name="secondarytint2">#FF910F</color>
+    <color name="secondarytint3">#FFA132</color>
+    <color name="secondarytint4">#FFB154</color>
+    <color name="secondarytint5">#FFC076</color>
+    <color name="secondarytint6">#FFD098</color>
+    <color name="secondarytint7">#FFE0BB</color>
+    <color name="secondarytint8">#FFEFDD</color>
+    <!--State color-->
+    <color name="succescolor">#35B369</color>
+    <color name="warmingcolor">#EBBC2E</color>
+    <color name="infocolor">#2F80ED</color>
+    <color name="errorcolor">#ED3A3A</color>
+
+    <!--Text color-->
+    <color name="text1">#3A3A3A</color>
+    <color name="text2">#141414</color>
+    <!--Gray color-->
+    <color name="gray1">#CFCFCF</color>
+    <color name="gray2">#A7A7A7</color>
+    <color name="gray3">#D7D7D7</color>
+
+    <color name="eyecolor">#141414</color>
+
+</resources>

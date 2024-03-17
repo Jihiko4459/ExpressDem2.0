@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:icon="@drawable/home_no_selected"
+        android:title="Home"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/wallet"
+        android:icon="@drawable/wallet_no_selected"
+        android:title="Wallet"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/track"
+        android:icon="@drawable/smart_car_no_selected"
+        android:title="Track"
+        android:orderInCategory="3"/>
+    <item android:id="@+id/profile"
+        android:icon="@drawable/profile_circle_no_selected"
+        android:title="Profile"
+        android:orderInCategory="4"/>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:background">@drawable/indicator</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Persent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
