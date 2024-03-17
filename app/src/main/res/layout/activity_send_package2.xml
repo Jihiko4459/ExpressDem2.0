@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SendPackageReceiptActivity">
+    tools:context=".SendPackageActivity2">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar5"
+        android:id="@+id/toolbar7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:elevation="5dp"
@@ -30,372 +30,382 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginEnd="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar5">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar7">
 
         <TextView
-            android:id="@+id/textView41"
+            android:id="@+id/textView88"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:text="Package Information"
             android:textColor="@color/primarycolor"
-            android:textSize="16sp"
-            android:fontFamily="@font/roboto_medium" />
+            android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView43"
+            android:id="@+id/textView89"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_regular"
             android:text="Origin details"
             android:textColor="@color/text3"
-            android:textSize="12sp"
-            android:fontFamily="@font/roboto_regular"/>
+            android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/textView47"
+            android:id="@+id/textView90"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_regular"
             android:text="Mbaraugba, Ovom Amaa Asaa, Abia state"
             android:textColor="@color/gray2"
-            android:textSize="12sp"
-            android:fontFamily="@font/roboto_regular"/>
+            android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/textView45"
+            android:id="@+id/textView91"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_regular"
             android:text="+234 56543 96854"
             android:textColor="@color/gray2"
-            android:textSize="12sp"
-            android:fontFamily="@font/roboto_regular"/>
+            android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/textView49"
+            android:id="@+id/textView92"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_regular"
             android:text="Destination details"
             android:textColor="@color/text3"
-            android:textSize="12sp"
-            android:fontFamily="@font/roboto_regular"/>
+            android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/textView50"
+            android:id="@+id/textView93"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_regular"
             android:text=" 1. 19 Ademola Alabi close, lagos "
             android:textColor="@color/gray2"
-            android:textSize="12sp"
-            android:fontFamily="@font/roboto_regular"/>
+            android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/textView51"
+            android:id="@+id/textView94"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_regular"
             android:text="+234 70644 80655"
             android:textColor="@color/gray2"
-            android:textSize="12sp"
-            android:fontFamily="@font/roboto_regular"/>
+            android:textSize="12sp" />
 
         <TextView
-            android:id="@+id/textView52"
+            android:id="@+id/textView95"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Other details"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Other details"
             android:textColor="@color/text3"
-            android:textSize="12sp"
-            android:fontFamily="@font/roboto_regular"/>
+            android:textSize="12sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="4dp">
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView60"
+                android:id="@+id/textView96"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="Package Items"
                 android:textColor="@color/gray2"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/textView61"
+                android:id="@+id/textView97"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textAlignment="textEnd"
+                android:fontFamily="@font/roboto_regular"
                 android:text="Books ans stationary, Garri Ngwa"
+                android:textAlignment="textEnd"
                 android:textColor="@color/secondarycolorshadeandtint1"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView58"
+                android:id="@+id/textView98"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="Weight of items"
                 android:textColor="@color/gray2"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/textView59"
+                android:id="@+id/textView99"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="1000kg"
                 android:textAlignment="textEnd"
                 android:textColor="@color/secondarycolorshadeandtint1"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="7dp">
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView54"
+                android:id="@+id/textView100"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="Worth of Items"
                 android:textColor="@color/gray2"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/textView55"
+                android:id="@+id/textView101"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="N50,000"
                 android:textAlignment="textEnd"
                 android:textColor="@color/secondarycolorshadeandtint1"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView56"
+                android:id="@+id/textView102"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="Tracking Number"
                 android:textColor="@color/gray2"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/textView57"
+                android:id="@+id/textView103"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="R-7458-4567-4434-5854"
                 android:textAlignment="textEnd"
                 android:textColor="@color/secondarycolorshadeandtint1"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/imageView98"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/line1"
-            android:layout_marginTop="37dp"/>
+            android:layout_marginTop="37dp"
+            app:srcCompat="@drawable/line1" />
 
         <TextView
-            android:id="@+id/textView63"
+            android:id="@+id/textView104"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Charges"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Charges"
             android:textColor="@color/primarycolor"
-            android:textSize="16sp"
-            android:fontFamily="@font/roboto_medium"/>
+            android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView64"
+                android:id="@+id/textView105"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="Delivery Charges"
                 android:textColor="@color/gray2"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/textView65"
+                android:id="@+id/textView106"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="N2,500.00"
                 android:textAlignment="textEnd"
                 android:textColor="@color/secondarycolorshadeandtint1"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView66"
+                android:id="@+id/textView107"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="Instant delivery"
                 android:textColor="@color/gray2"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/textView69"
+                android:id="@+id/textView108"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="N300.00"
                 android:textAlignment="textEnd"
                 android:textColor="@color/secondarycolorshadeandtint1"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView75"
+                android:id="@+id/textView109"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="Tax and Service Charges"
                 android:textColor="@color/gray2"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/textView76"
+                android:id="@+id/textView110"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="N200.00"
                 android:textAlignment="textEnd"
                 android:textColor="@color/secondarycolorshadeandtint1"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView11"
+            android:id="@+id/imageView99"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/line2"
-            android:layout_marginTop="9dp"/>
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/line2" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="4dp">
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView73"
+                android:id="@+id/textView111"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="Package total"
                 android:textColor="@color/gray2"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/textView74"
+                android:id="@+id/textView112"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
                 android:text="N3000.00"
                 android:textAlignment="textEnd"
                 android:textColor="@color/secondarycolorshadeandtint1"
-                android:textSize="12sp"
-                android:fontFamily="@font/roboto_regular"/>
+                android:textSize="12sp" />
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="12sp"
+            android:textColor="@color/primarycolor"
+            android:layout_marginTop="24dp"
+            android:text="Click on  delivered for successful delivery and rate rider or report missing item" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginTop="46dp">
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_edit"
+                android:id="@+id/btn_report"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Edit package"
-                android:textColor="@color/primarycolor"
                 android:layout_marginEnd="24dp"
-                android:textAllCaps="false"
-                android:textSize="16sp"
+                android:layout_weight="1"
+                android:background="@drawable/button_primary_border"
                 android:fontFamily="@font/roboto_bold"
-                android:background="@drawable/button_primary_border"/>
+                android:text="Report"
+                android:textAllCaps="false"
+                android:textColor="@color/primarycolor"
+                android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_pay"
+                android:id="@+id/btn_success"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Make payment"
-                android:textColor="@color/background_card"
-                android:textAllCaps="false"
-                android:textSize="16sp"
+                android:background="@drawable/button_primary_solid"
                 android:fontFamily="@font/roboto_bold"
-                android:background="@drawable/button_primary_solid"/>
+                android:text="Successful"
+                android:textAllCaps="false"
+                android:textColor="@color/background_card"
+                android:textSize="16sp" />
         </LinearLayout>
 
     </LinearLayout>

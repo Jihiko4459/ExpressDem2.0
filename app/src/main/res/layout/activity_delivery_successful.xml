@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeliverySuccessfulActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="99dp"
+        android:indeterminateDrawable="@drawable/load"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="219dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Rate Rider"
+        android:textColor="@color/primarycolor"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar2" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:stepSize="1"
+        android:numStars="5"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+    <EditText
+        android:id="@+id/feedback_et"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="36.59dp"
+        android:inputType="textMultiLine"
+        android:elevation="2dp"
+        android:drawableStart="@drawable/feedback"
+        android:hint="Add feedback"
+        android:maxLength="10"
+        android:textColor="@color/text1"
+        android:textColorHint="@color/gray2"
+        android:textSize="12sp"
+        android:fontFamily="@font/roboto_regular"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp"
+        android:paddingStart="12dp"
+        android:drawablePadding="12dp"
+        android:paddingEnd="12dp"
+        android:background="@color/background_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_done"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/btn_tran_suc"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedback_et" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="background_card">#FFFFFFFF</color>
     <!--Brand color primary-->
     <color name="primarycolor">#0560fa</color>
     <color name="primaryshadeandtint1">#006CEC</color>
@@ -43,11 +44,16 @@
 
     <!--Text color-->
     <color name="text1">#3A3A3A</color>
+    <color name="text3">#3A3A3A</color>
+    <color name="text4">#3A3A3A</color>
     <color name="text2">#141414</color>
     <!--Gray color-->
     <color name="gray1">#CFCFCF</color>
     <color name="gray2">#A7A7A7</color>
     <color name="gray3">#D7D7D7</color>
+    <color name="gray4">#A7A7A7</color>
+    <color name="gray5">#CFCFCF</color>
+
 
     <color name="eyecolor">#141414</color>
 
