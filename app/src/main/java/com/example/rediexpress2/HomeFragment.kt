@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.CheckBox
+import android.widget.LinearLayout
 import android.widget.Switch
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatDelegate
@@ -23,7 +24,11 @@ class HomeFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val l= inflater.inflate(R.layout.fragment_home, container, false)
-
+        var chat:LinearLayout=l.findViewById(R.id.chats)
+        chat.setOnClickListener {
+            val intent=Intent(activity, ChatsActivity::class.java)
+            startActivity(intent)
+        }
         return l
     }
 
