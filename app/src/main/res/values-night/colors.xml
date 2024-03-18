@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background_card">#001B3B</color>
+    <color name="background_card1">#000D1D</color>
     <!--Brand color primary-->
     <color name="primarycolor">#0560fa</color>
     <color name="primaryshadeandtint1">#006CEC</color>
@@ -53,6 +54,11 @@
     <color name="gray3">#D7D7D7</color>
     <color name="gray4">#A7A7A7</color>
     <color name="gray5">#001B3B</color>
+    <color name="gray6">#001B3B</color>
+    <color name="gray7">#001B3B</color>
+
+    <color name="primarycolor_info1">#001B3B</color>
+    <color name="primarycolor_info2">#002858</color>
 
     <color name="eyecolor">#141414</color>
 
