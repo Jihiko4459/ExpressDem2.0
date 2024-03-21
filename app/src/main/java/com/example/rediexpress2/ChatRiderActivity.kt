@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -20,9 +21,11 @@ class ChatRiderActivity : AppCompatActivity() {
             insets
         }
         setSupportActionBar(findViewById(R.id.toolbar9))
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
-        supportActionBar?.setHomeAsUpIndicator(R.drawable.arrow_square_right)
+        var btn_back:ImageButton=findViewById(R.id.back_btn)
+        btn_back.setOnClickListener {
+            super.onBackPressed()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -31,7 +34,7 @@ class ChatRiderActivity : AppCompatActivity() {
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.home->super.onBackPressed()
+//            R.id.home->super.onBackPressed()
             R.id.phone_call->startActivity(Intent(this@ChatRiderActivity, CallRiderActivity::class.java))
         }
         return true
